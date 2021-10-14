@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -21,14 +21,14 @@ export const Content = styled.div`
         margin: 0;
         padding-top: 30vh;
         text-align: center;
-        font-size: 6rem;
+        font-size: 2.5rem;
         letter-spacing: .8rem;
         color: #fff;
         font-weight: 900;
     }
 
     img {
-        width: 35px;
+        width: 25px;
         height: auto;
     }
 `;

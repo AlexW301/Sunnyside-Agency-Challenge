@@ -14,7 +14,7 @@ export const NavBar = styled.div`
 `;
 
 export const Logo = styled.img`
-    width: 200px;
+    width: 130px;
     height: auto;
 `;
 
@@ -31,7 +31,7 @@ export const Menu = styled.div`
     a:visited {
         color: #fff;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 900;
     }
 
@@ -42,12 +42,12 @@ export const Menu = styled.div`
 
     .contact-btn:link,
     .contact-btn:visited {
-        color: #000;
+        color: hsl(213, 9%, 39%);
         background-color: #fff;
-        padding: .8rem 1.2rem;
+        padding: .8rem 2rem;
         border-radius: 2rem;
         font-weight: 900;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-size: 1rem;
     }
 
