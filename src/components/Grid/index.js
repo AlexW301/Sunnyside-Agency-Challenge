@@ -12,7 +12,9 @@ const Grid = () => {
         <Wrapper>
             <Content>
                 <TextBox>
-                    TEST#1
+                    <h1>Transform your brand</h1>
+                    <p>We are full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuald that do most of the marketing for yor.</p>
+                    <a className="learn-more" href="https://google.com">Learn More</a>
                 </TextBox>
                 
                 <ImageBox src={EggPic} alt="img"/>
