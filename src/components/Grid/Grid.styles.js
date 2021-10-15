@@ -21,7 +21,7 @@ export const TextBox = styled.div`
 
     h1 {
         color: #23303e;
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         text-align: left;
         margin-bottom: 1rem;
     }
@@ -66,6 +66,10 @@ export const TextBox = styled.div`
     .learn-more:hover::after {
         opacity: .8;
     }
+
+    .pink::after {
+        background-color: pink;
+    }
 `;
 
 export const ImageBox = styled.img`
@@ -76,14 +80,43 @@ export const ImageBox = styled.img`
 export const ImageTextBox = styled.div`
     height: 100%;
     width: 100%;
+    position: relative;
+    text-align: center;
+
+    h1 {
+        position: absolute;
+        margin: 0;
+        bottom: 32%;
+        right: 50%;
+        transform: translate(50%);
+        font-weight: 900;
+    }
+
      p {
          position: absolute;
+         margin: 0;
+        bottom: 15%;
+        right: 50%;
+        transform: translate(50%);
+        text-indent: center;
+        font-size: 1rem;
+        font-weight: 900;
+        line-height: 1.5;
      }
 
      img {
          object-fit: cover;
          height: 100%;
-        width: 100%;
+         width: 100%;
+
+     }
+
+     .blue {
+         color: #19536b;
+     }
+
+     .green {
+         color: #2d7668;
      }
 
 `;

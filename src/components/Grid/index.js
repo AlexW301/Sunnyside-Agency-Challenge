@@ -22,16 +22,20 @@ const Grid = () => {
                 <ImageBox src={GlassPic} alt="img"/>
 
                 <TextBox>
-                    TEST#3
+                    <h1>Stand out to the right audience</h1>
+                    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                    <a className="learn-more pink" href="https://google.com">Learn More</a>
                 </TextBox>
 
                 <ImageTextBox>
-                    <p>Testing 123456</p>
-                    <img src={OrangePic} alt="img"/>
+                    <img src={CherryPic} alt="img"/>
+                    <h1 className="green">Graphic Design</h1>
+                    <p className="green">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
                 </ImageTextBox>
                 <ImageTextBox>
-                    <p>Testing 123456</p>
-                    <img src={CherryPic} alt="img"/>
+                    <img src={OrangePic} alt="img"/>
+                    <h1 className="blue">Photography</h1>
+                    <p className="blue">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
                 </ImageTextBox>
             </Content>
         </Wrapper>
