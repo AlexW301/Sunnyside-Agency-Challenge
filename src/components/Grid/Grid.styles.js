@@ -12,27 +12,33 @@ export const Content = styled.div`
 `;
 
 export const TextBox = styled.div`
-    height: 600px;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 0 6rem;
+    padding: 0 18rem;
+
+    @media screen and (max-width: 2100px) {
+        padding: 0 10rem;
+    }
 
     h1 {
         color: #23303e;
-        font-size: 2.6rem;
+        font-size: 3rem;
         text-align: left;
         margin-bottom: 1rem;
     }
 
     p {
         color: hsl(213, 9%, 39%);
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: left;
         line-height: 1.8rem;
         color: #818498;
         margin-bottom: 2.5rem;
+        font-weight: 600;
     }
 
     .learn-more::after {
@@ -42,7 +48,7 @@ export const TextBox = styled.div`
         z-index: -2;
         position: absolute;
         height: 7px;
-        width: 120px;
+        width: 150px;
         bottom: 0;
         left: -5px;
     }
@@ -52,10 +58,10 @@ export const TextBox = styled.div`
         text-decoration: none;
         color: #23303e;
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: 900;
         position: relative;
-        width: 8.5rem;
+        width: 9.5rem;
     }
 
     .learn-more:hover,
@@ -90,16 +96,17 @@ export const ImageTextBox = styled.div`
         right: 50%;
         transform: translate(50%);
         font-weight: 900;
+        font-size: 3rem;
     }
 
      p {
          position: absolute;
          margin: 0;
-        bottom: 15%;
+        bottom: 17%;
         right: 50%;
         transform: translate(50%);
         text-indent: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 900;
         line-height: 1.5;
      }
@@ -117,6 +124,40 @@ export const ImageTextBox = styled.div`
 
      .green {
          color: #2d7668;
+     }
+
+     @media screen and (max-width: 2100px) {
+         h1 {
+            bottom: 30%;
+         }
+
+         p {
+             bottom: 8%;
+         }
+     }
+
+     @media screen and (max-width: 1800px) {
+         h1 {
+            bottom: 30%;
+         }
+
+         p {
+             bottom: 5%;
+             width: 500px;
+         }
+     }
+
+     @media screen and (max-width: 1275px) {
+         h1 {
+            bottom: 30%;
+            font-size: 2.5rem;
+         }
+
+         p {
+             bottom: 5%;
+             width: 500px;
+             font-size: 1.2rem;
+         }
      }
 
 `;
