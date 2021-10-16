@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+
 `;
 
 export const Content = styled.div`

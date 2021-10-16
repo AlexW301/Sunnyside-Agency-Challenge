@@ -2,7 +2,7 @@ import styled from 'styled-components';
 //Images
 
 export const Wrapper = styled.div`
-
+    
 `;
 
 export const Content = styled.div`
@@ -157,6 +157,19 @@ export const ImageTextBox = styled.div`
              bottom: 5%;
              width: 500px;
              font-size: 1.2rem;
+         }
+     }
+
+     @media screen and (max-width: 1100px) {
+         h1 {
+            bottom: 30%;
+            font-size: 2rem;
+         }
+
+         p {
+             bottom: 5%;
+             width: 500px;
+             font-size: 1rem;
          }
      }
 
