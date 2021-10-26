@@ -6,6 +6,7 @@ import Header from './components/Header/index';
 import Grid from './components/Grid/index';
 import Testimonials from './components/Testimonials';
 import Pictures from './components/Pictures';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Grid/>
       <Testimonials/>
       <Pictures/>
+      <Footer />
       <GlobalStyle/>
     </div>
   );
