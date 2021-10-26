@@ -11,17 +11,17 @@ const Grid = () => {
     return (
         <Wrapper>
             <Content>
-                <TextBox>
+                <TextBox className="box-1">
                     <h1>Transform your brand</h1>
                     <p>We are full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuald that do most of the marketing for yor.</p>
                     <a className="learn-more" href="https://google.com">Learn More</a>
                 </TextBox>
                 
-                <ImageBox src={EggPic} alt="img"/>
+                <ImageBox className="box-2" src={EggPic} alt="img"/>
 
-                <ImageBox src={GlassPic} alt="img"/>
+                <ImageBox className="box-3" src={GlassPic} alt="img"/>
 
-                <TextBox>
+                <TextBox className="box-4">
                     <h1>Stand out to the right audience</h1>
                     <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
                     <a className="learn-more pink" href="https://google.com">Learn More</a>

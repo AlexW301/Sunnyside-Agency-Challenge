@@ -2,11 +2,6 @@
 import React from "react";
 //Styles
 import { Wrapper, Content } from './Footer.styles';
-//Logos
-import FacebookIcon from '../../images/icon-facebook.svg';
-import InstagramIcon from '../../images/icon-instagram.svg';
-import PinterestIcon from '../../images/icon-pinterest.svg';
-import TwitterIcon from '../../images/icon-twitter.svg';
 
 const Footer = () => {
 
