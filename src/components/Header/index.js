@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 //Styles
 import { Wrapper, NavBar, Logo, Menu } from "./Header.styles"
 //Images
